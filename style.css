@@ -1,0 +1,155 @@
+.head{
+background-image: url(./img/events-heavenly-header.jpg);
+background-size: cover;
+background-position: center;
+height: 80vh;
+}
+
+.layer{
+    top: 0;
+    left: 0;
+    background-color: rgba(162, 45, 45, 0.7);
+    height: 80vh;
+    z-index: 555555;
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.text{
+    margin-top: 200px;
+}
+
+
+.nav{
+    background-color: black;
+    width: 0px;
+    height: 100vh;
+    z-index: 99999999;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+
+.closeBtn{
+    z-index: 5555555555555555;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.closeBtn:hover{
+    color:rgba(162, 45, 45, 0.7);
+}
+
+ .links{
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+ .links a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+ .links a:hover{
+    color: rgba(162, 45, 45, 0.7);
+}
+
+.open{
+    cursor: pointer;
+    color: white !important;
+    position: absolute;
+    margin-left: 0px;
+    z-index: 555555555555555555;
+    transition: all 1s ease-in-out;
+}
+
+.open::before{
+    content:'-';
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+
+#slider h2
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#slider .inner{
+    display: none;
+}
+
+.char,.red{
+    color: rgba(162, 45, 45, 0.7);
+}
+
+.social-list i:hover{
+    color: rgba(162, 45, 45, 0.7);
+}
+
+textarea{
+    height: 200px;
+    resize: vertical;
+}
+
+
+
+.countdown {
+    background-image: url(./img/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+	display: flex;
+    justify-content: center;
+    margin-block:200px ;
+    padding-block: 100px;
+    position: relative;
+   
+}
+
+.layer2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(162, 45, 45, 0.7);
+    height: 100%;
+    z-index: 5;
+    width: 100%;
+}
+
+.countdown{
+    overflow: hidden;
+}
+
+.count{
+    height: 100%;
+}
+
+.time {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+.time h2 {
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 1;
+	margin: 0 0 5px;
+}
+
