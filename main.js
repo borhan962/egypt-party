@@ -31,7 +31,7 @@ let counter = setInterval(()=>{
 
   let days = Math.floor( dataDiff / (1000*60*60*24));
   let hours = Math.floor((dataDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let mins = Math.floor((dataDiff % (1000 * 60 * 60 )) / (1000 * 60));
+  let mins = Math.floor((dataDiff % (1000 * 60 * 60)) / (1000 * 60));
   let secs = Math.floor((dataDiff % (1000 * 60)) / (1000));
   console.log(secs);
 
